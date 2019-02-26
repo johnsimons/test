@@ -1,0 +1,27 @@
+<package>
+  <metadata>
+    <id>WebApplication2</id>
+    <version>1.0.0.0</version>
+    <authors>John</authors>
+    <owners>John</owners>
+    <tags>OctopusDeploy</tags>
+    <licenseUrl>http://example.com</licenseUrl>
+    <projectUrl>http://example.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The WebApplication2 deployment package</description>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="favicon.ico" target="favicon.ico" />
+    <file src="Global.asax" target="Global.asax" />
+    <file src="Web.config" target="Web.config" />
+    <file src="Web.Debug.config" target="Web.Debug.config" />
+    <file src="Web.Release.config" target="Web.Release.config" />
+    <file src="Views\**\*.*" target="Views\" />
+    <file src="fonts\**\*.*" target="fonts\" />
+    <file src="Content\**\*.*" target="Content\" />
+    <file src="Scripts\**\*.*" target="Scripts\" />
+    <file src="bin\*.*" target="bin\" />
+    <file src=".well-known\**\*" target=".well-known\" />
+  </files>
+</package>
